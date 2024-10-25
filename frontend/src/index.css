@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/iransansdn.eot");
+  src: url("../fonts/iransansdn.woff") format("woff"),
+    url("../fonts/iransansdn.ttf") format("ttf"),
+    url("../fonts/iransansdn.woff2") format("woff2"),
+    url("../fonts/iransansdn.svg") format("svg");
+}
+
+*,
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: iransansdn;
+}
